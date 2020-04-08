@@ -1,8 +1,9 @@
 function User(name) {
     this.name = name;
-    this.getName = function() {
-        return this.name;
-    }
+}
+
+User.prototype.getName = function() {
+    return this.name;
 }
 
 // Допишите код здесь, чтобы программа вывела на консоль ожидаемый результат
